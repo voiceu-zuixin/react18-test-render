@@ -3,9 +3,11 @@ import "./App.css";
 
 function App() {
   console.log('first')
+
   useEffect(() => {
     console.log('app')
   },[]);
+  
   return (
     <div className="App">
       hello
